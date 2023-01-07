@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Salam
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      p{
+        font-family:  'Times New Roman', Times, serif;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .cat,
+      .cat2{
+        width: 200px;
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        height: 300px;
+        
+      }
+      .cat2{
+       
+        object-fit: cover;
+        object-position: 80%;
+      }
+      .Profile{
+        display: inline-block;
+        
+        vertical-align: top;
+        
+      }
+      .sp{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+      }
+      .sp2{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: right;
+      }
+      .pp,
+      .name,
+      .all,
+      .all2,
+      .f{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .f{
+        margin-top: 10px;
+        margin-left: 12px;
+        color: gray;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .name{
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .button{
+        background-color: rgb(99, 99, 240);
+        margin-top: 5px;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 27px;
+        border-radius: 3px;
+        position:relative;
+        top: 25%; 
+        left:25%;
+        transition: color 0.15s , background-color 0.15s , padding-bottom 0.6s;
+
+
+      }
+      .button:hover{
+        background-color: rgb(225, 166, 240);
+        color: black;
+      }
+      .button:active{
+        background-color: rgb(12, 246, 66);
+        color: rgb(240, 10, 10); 
+        padding-bottom: 50px;       
+      }
+      .all,
+      .all2{
+        box-shadow: 1px 1px 1px 1px #ddd8d8;
+        padding-bottom: 5px;
+        padding-left: 2px;
+      }
+      .all2{
+        margin-left: 5px;
+        
+      }
+      
+
+    </style>
+
+  </head>
+  <body>
+    <div class="all">
+      <div class="Profile">
+        <img class="cat" src="cat.jpg">
+      </div>
+      <div class="info">
+        <div class="name">Javad</div>
+        <div class="fp">
+          <div class="pp"> <img class="sp" src="cat.jpg"> </div>
+          <div class="f">2 Manual Friends</div>
+        </div>
+        <div class="buttondiv">
+          <button class="button">
+            Add Friends
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="all2">
+      <div class="Profile">
+        <img class="cat2" src="cat2.webp">
+      </div>
+      <div class="info">
+        <div class="name">John</div>
+        <div class="fp">
+          <div class="pp"> <img class="sp2" src="cat2.webp"> </div>
+          <div class="f">10 Manual Friends</div>
+        </div>
+        <div class="buttondiv">
+          <button class="button">
+            Add Friends
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
